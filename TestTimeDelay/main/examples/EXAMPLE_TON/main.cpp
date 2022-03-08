@@ -12,6 +12,7 @@
 #include "driver/gpio.h"
 #include "sdkconfig.h"
 #include "StandardLib.h"
+#include "BasicLib.h"
 
 #define LOG_LOCAL_LEVEL ESP_LOG_INFO
 #include "esp_log.h"
@@ -20,6 +21,7 @@ static const char * const TAG = "EXAMPLE_TON";
 
 
 #define BUTTON_I1 GPIO_NUM_26        // Pin 26.
+
 #define GPIO_Q1 GPIO_NUM_19            // Pin 19.
 
 
